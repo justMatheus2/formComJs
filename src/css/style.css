@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../image/bg-repeat.jpg);
+  width: 800px;
+  height: 402px;
+  margin-top: 140px;
+  overflow: hidden;
+}
+.card-left {
+  color: #fff;
+}
+.card-left h1 {
+  width: 300px;
+  height: 111px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.card-left p {
+  margin-top: -50px;
+  width: 300px;
+  height: 54px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.card-right {
+  background-color: #fff;
+  width: 340px;
+  height: 385px;
+}
+input {
+  width: 298px;
+  height: 35px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+.mensagem {
+  height: 100px;
+}
+.texto-pequeno {
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.btn {
+  color: #fff;
+  border: none;
+  width: 298px;
+  height: 41px;
+  cursor: pointer;
+  margin-left: 20px;
+  border-radius: 5px;
+  background-color: #3ccc87;
+}
+.small {
+  margin-top: 0%;
+  visibility: hidden;
+  color: #f52e2e;
+  margin-left: 22px;
+}
+.itens.success input {
+  border-color: #00c22b;
+}
+.itens.error input {
+  border-color: #f52e2e;
+}
+.itens.error .small {
+  visibility: visible;
+}

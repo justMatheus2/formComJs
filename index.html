@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css">
+  </head>
+  <body>
+    <main class="container">
+      <div class="card-left">
+        <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+        <p>
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </div>
+      <div class="card-right">
+        <form class="form" id="form">
+          <div class="itens">
+            <label for="nome"></label>
+            <input type="text" id="nome" placeholder="Nome completo *" />
+            <small class="small">campo obrigatório</small>
+          </div>
+
+          <div class="itens">
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Email *" />
+            <small class="small">campo obrigatório</small>
+          </div>
+
+          <div class="itens">
+            <label for="telefone"></label>
+            <input type="tel" id="telefone" placeholder="Telefone *" />
+            <small class="small">campo obrigatório</small>
+          </div>
+
+          <div class="itens">
+            <label for="mensagem"></label>
+            <input
+              class="mensagem"
+              type="text"
+              id="mensagem"
+              placeholder="Mensagem *"
+            />
+            <small class="small">campo obrigatório</small>
+          </div>
+          <span class="texto-pequeno">* campos obrigatórios</span>
+
+          <button class="btn" type="submit">Enviar</button>
+        </form>
+      </div>
+    </main>
+
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
